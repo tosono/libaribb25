@@ -150,7 +150,7 @@ static int parse_arg(OPTION *dst, int argc, TCHAR **argv)
 
 	dst->round = 4;
 	dst->strip = 0;
-	dst->emm = 0;
+	dst->emm = 1;
 #ifdef ENABLE_ARIB_STD_B1
 	dst->power_ctrl = 0;
 #else
